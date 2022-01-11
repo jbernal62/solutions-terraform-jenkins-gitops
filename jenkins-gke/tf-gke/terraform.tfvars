@@ -1,7 +1,7 @@
 
 
-project_id = ""
-tfstate_gcs_backend = "-tfstate"
+project_id = "valid-chess-333315"
+tfstate_gcs_backend = "valid-chess-333315-tfstate"
 region = "us-east4"
 zones = ["us-east4-a"]
 ip_range_pods_name = "ip-range-pods"
