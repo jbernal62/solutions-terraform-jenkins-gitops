@@ -18,6 +18,5 @@ terraform {
   backend "gcs" {
     bucket = "valid-chess-333315-tfstate"
     prefix = "jenkins"
-    credentials="gcp_credentials.json"
   }
 }
