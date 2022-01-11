@@ -16,7 +16,7 @@
 
 terraform {
   backend "gcs" {
-    bucket = "-tfstate"
+    bucket = "valid-chess-333315-tfstate"
     prefix = "jenkins"
   }
 }
